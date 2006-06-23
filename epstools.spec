@@ -1,15 +1,15 @@
 Summary:	Set of simple tools to analyze an email message or its parts
 Summary(pl):	Zestaw prostych narzêdzi do analizy wiadomo¶ci e-mailowych lub ich czê¶ci
 Name:		epstools
-Version:	1.4
+Version:	1.7
 Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.inter7.com/eps/%{name}-%{version}.tar.gz
-# Source0-md5:	380081a9af617e2831f2b5cea8fde1c3
+# Source0-md5:	4ed6d823621625e8aaa5a75f9134509e
 URL:		http://www.inter7.com/eps.html
-BuildRequires:	eps-devel >= 1.2
-Requires:	eps >= 1.2
+BuildRequires:	eps-devel >= 1.5
+Requires:	eps >= 1.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -30,7 +30,7 @@ czê¶ci.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-for f in headers body address full encode decode rewrite ; do
+for f in address b64decode b64encode body fold full headers rewrite ; do
 	install $f $RPM_BUILD_ROOT%{_bindir}/eps-${f}
 done
 
