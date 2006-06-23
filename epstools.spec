@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.inter7.com/eps/%{name}-%{version}.tar.gz
 # Source0-md5:	4ed6d823621625e8aaa5a75f9134509e
-URL:		http://www.inter7.com/eps.html
+URL:		http://www.inter7.com/?page=eps
 BuildRequires:	eps-devel >= 1.5
 Requires:	eps >= 1.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
