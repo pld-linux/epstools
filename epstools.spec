@@ -1,5 +1,5 @@
 Summary:	Set of simple tools to analyze an email message or its parts
-Summary(pl):	Zestaw prostych narzêdzi do analizy wiadomo¶ci e-mailowych lub ich czê¶ci
+Summary(pl.UTF-8):   Zestaw prostych narzÄ™dzi do analizy wiadomoÅ›ci e-mailowych lub ich czÄ™Å›ci
 Name:		epstools
 Version:	1.7
 Release:	1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Set of simple tools to analyze an email message or its parts.
 
-%description -l pl
-Zestaw prostych narzêdzi do analizy wiadomo¶ci e-mailowych lub ich
-czê¶ci.
+%description -l pl.UTF-8
+Zestaw prostych narzÄ™dzi do analizy wiadomoÅ›ci e-mailowych lub ich
+czÄ™Å›ci.
 
 %prep
 %setup -q
