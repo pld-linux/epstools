@@ -1,5 +1,5 @@
 Summary:	Set of simple tools to analyze an email message or its parts
-Summary(pl.UTF-8):   Zestaw prostych narzędzi do analizy wiadomości e-mailowych lub ich części
+Summary(pl.UTF-8):	Zestaw prostych narzędzi do analizy wiadomości e-mailowych lub ich części
 Name:		epstools
 Version:	1.7
 Release:	1
